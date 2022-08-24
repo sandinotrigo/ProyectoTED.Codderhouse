@@ -1,0 +1,22 @@
+@import"utilities/variables" ;
+
+header{background-color: rgba(240, 234, 234, 0);
+    position:sticky;
+    top: 0;
+    z-index: 1;}
+    .imglogonav{width: 100%;
+        border-radius: 15px;
+        border-color: black;
+        margin-left: 0%;
+        margin-right: 0%;
+    box-shadow: 4rem rgb(226, 0, 0);}
+    .navbar-collapse{flex-grow: inherit;}  
+    .navbar-dark .navbar-nav .nav-link{color:white;}
+    .navbar-dark .navbar-nav .nav-link:hover{color:blue; background-color: white;
+    ;}
+    
+    /*menu de hamburguesa*/
+    .navbar-dark .navbar-toggler{color: blue ;
+    border-color:blue;}
+    .navbarbackground{background-color: $gristransparente;}
+
