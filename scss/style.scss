@@ -1,121 +1,16 @@
-@import"reset/reset";
-@import"utilities/variables" ;
-@import"components/header";
-@import"components/footer" ;
-@import"components/inscripciones/inscripciones"; 
-@import"components/inscripciones/mediaqueriesinscripciones";
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Lato:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import"components/index/index";
+@import"components/index/mediaqueriesindex";
+@import"components/carreras/carreras";
+@import"components/carreras/mediaqueriescarreras";
+@import"components/galeria/galeria";
+@import"components/galeria/mediaqueriesgaleria";
 @import"components/nosotros/nosotros";
-@import"components/merch/merch";
-@import"components/merch/mediaqueriesmerch";
-
-    /*GRID QUE ORGANIZA EL LAYOUT DEL MAIN*/
-    .main{display: flex;
-    flex-direction: column;
-    align-content: center;
-    justify-content: center;}
-    
-
-    /*Flex/grid para organizar los elementos dentro de las celdas grid*/
-    
-            
-
-    
-    /*Background main*/
-
-    
-    /*Baground footer*/
- 
-    
-    
-    
-   
-    
-    
-    
-    
-    
-    /*Boxmodeling/tipografia main*/
-    
-    
-    .h1index
-    {  font-family: 'Kanit', sans-serif;
-        font-family: 'Permanent Marker', cursive;
-        margin-left: auto;
-        margin-right: auto;
-        text-align: center;
-        padding: 10px;
-    color:rgb(2, 4, 81) ;
-    }
-    
-    /*sponsors*/
-    .h2index
-    {font-family: 'Kanit', sans-serif;
-        font-family: 'Permanent Marker', cursive;
-        margin-left: auto;
-        margin-right: auto;
-        text-align: center;
-        padding: 10px;
-    }
-
-    .sponsors{width: 100%;}
-    
-    
-    
-    /*Boxmodeling footer*/
-    .footermio
-    {display: flex;
-    justify-content: space-between;
-color: white;
-text-transform: uppercase;}
-    .logofooter{width: 50px;}
-    
-    
-    
-
-    /*MEDIAQUARY TABLET*/
-    @media (min-width:769px) and (max-width:1199px){
-                
-                /*Baground footer*/
-                .footer{background-image: url(../images/nuevasimagenes/imgfooterr.jpg);
-                background-position: center;
-                background-size: cover;}
-            }
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    /*MEDIAQUARY PC*/
-    @media (min-width:1200px){
-    
-    
-    /*Flex/grid para organizar los elementos dentro de las celdas grid*/
-    
-    
-    .proximascarreras{display: flex;
-    flex-direction: row-reverse;
-    align-content:center;
-    justify-content: space-around;} 
-    
-    .sponsors{display: flex;
-            align-items: center;
-            justify-content: center;}
-
-            .logofooter{width: 100px;
-            height: 60px;}
-        }
-    /*imagen de fondo del header*/
-    
-    /*texto del nav*/
-    
-    /*logo del nav*/
-    
-    
-    /*MAIN*/
-    
+@import"components/nosotros/mediaqueriesnosotros";
+@import"components/contacto/contacto";
+@import "utilities/variables";
+@import "reset/reset";
+@import"components/header";
+@import"components/footer";

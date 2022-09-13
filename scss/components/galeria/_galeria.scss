@@ -1,0 +1,14 @@
+.pc{
+    display: none;
+}
+
+.mb_h_galeria{font-family: $letraencabezado1;
+            text-align: center;
+            margin: 13% auto 8% auto;
+            font-size:200%;
+    &.h2_caranchos_galeria{color: $celestecaranchos;}
+    &.h3_duatlon_galeria{color: $maderaduatlon;}
+    &.h4_100x100to_galeria{ color: $verde100x100to;}
+
+}
+.slider_galeria_100x100to{margin-bottom: 10%;}

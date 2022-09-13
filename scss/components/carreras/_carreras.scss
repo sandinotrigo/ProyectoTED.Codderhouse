@@ -1,0 +1,90 @@
+@import "utilities/variables";
+    .article_carreras_1{background:$gradiante100x100to;
+    font-family:$letratxt1;
+    color: white;}
+    .article_carreras_2{background: $gradiantecaranchos;
+    font-family:$letratxt1}
+    .article_carreras_3{background: $gradianteduatlon;
+    font-family:$letratxt1;
+color: beige;}
+
+    .encabezado_titulo{color: $naranjaxrace;
+        font-family: $letraencabezado2;
+        text-align: center;
+        margin-top: 3%;
+        margin-bottom: 3%;}
+
+        article{
+        .encabezado_article_carreras {
+            font-family:$letraencabezado1;
+        text-align: center;
+        margin-top: 3%;
+        margin-bottom: 3%;
+        }
+        .encabezado_100x100to{color: $verde100x100to;}
+        .encabezado_caranchos{color: $celestecaranchos;}
+        .encabezado_duatlon_rustico{ color: $maderaduatlon;}
+.grid_carreras{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1.5fr 1fr 0.1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 10px;
+
+& .grid_slider_carreras {grid-area: 1 / 1 / 2 / 2;
+    display: flex;
+    flex-direction: column;     
+    justify-content: center;
+}
+& .grid_texto_carreras1 { grid-area: 1 / 2 / 2 / 3;
+    display: flex;
+    flex-direction: column;     
+    text-align: center;
+    justify-content: center;
+}
+
+& .grid_texto_carreras2 { grid-area: 2 / 1 / 3 / 3;
+    display: flex;
+    flex-direction: column;     
+    text-align: center;
+    justify-content: center;
+}
+& .grid_boton_carreras { grid-area: 3 / 1 / 4 / 3; }
+}
+
+
+
+.boton_inscripcion{
+    background-image: url(../images/bkg/backgroundheader.jpg);
+width: 100%;
+object-fit:fill;
+
+
+
+& .texto_inscripcion{
+    text-decoration: none;
+    color: black;
+    font-family: $letraencabezado2;
+}
+}
+.video_caranchos{width: 100%;
+    // padding-left: .75rem;
+    // padding-right: .75rem;
+    // margin-bottom: 5%;
+    // margin-top: 40%;
+    }
+
+.boton_video_inscripcion{
+    background-image: url(../images/bkg/backgroundheader.jpg);
+    width: 100%;
+object-fit:fill;
+& .texto_video_inscripcion{
+    font-family: $letraencabezado2;
+    text-decoration: none;
+    color: black;}
+                        }
+}
+.letra_carancho1{
+    color: white;
+    font-family: $letratxt1
+}

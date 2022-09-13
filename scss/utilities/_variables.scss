@@ -1,4 +1,20 @@
-$negro:rgb(0, 0, 0);
-$blanco:rgb(255, 255, 255);
-$color100x100to:rgb(1, 242, 16);
-$gristransparente:rgba(128, 128, 128, 0.603);
+$gradiantebody:linear-gradient(180deg, rgba(0,0,0,1) 6%, rgba(22,50,14,0.8169468470982143) 13%, rgba(55,125,34,0.8561625333727241) 21%, rgba(178,127,96,0.8589636538209033) 38%, rgba(185,176,157,1) 48%, rgba(178,127,96,0.9261905445772058) 58%, rgba(55,125,34,0.7665266790309874) 73%, rgba(0,0,0,1) 96%);
+$gradiantefooter:linear-gradient(180deg, rgb(45, 165, 8) 35%, rgba(178,127,96,1) 69%,);
+$gradiante100x100to: linear-gradient(180deg, black 23%, rgb(34, 118, 9) 52%);
+$gradiantecaranchos:linear-gradient(180deg, black 23%, rgba(88,160,205,1) 52%);
+$gradianteduatlon: linear-gradient(180deg, black 23%, rgba(166,128,78,1) 52%);
+$naranjaxrace:rgb(246, 135, 51);
+$celesteretomataojo:rgba(1, 126, 189, 0.694); //CELESTE RETO MATA OJO
+$verde100x100to: rgba(4,242,2,1); //VARIABLE FONT 100X100
+$celestecaranchos: rgb(88, 160, 205); //VARIABLE FONT CARANCHOS
+$maderaduatlon: rgb(166, 128, 78); // VARIABLE FONT DUATLON
+$verdeclaro: rgba(55,125,34,1);
+$grisoscuro:rgb(56, 56, 56);
+$grisclaro:rgb(141, 141, 141);
+$grisoscurotransparente:rgba(56, 56, 56, 0.637);
+$grisclarotransparente:rgba(141, 141, 141, 0.637);
+$letraencabezado1:'Permanent Marker', cursive; 
+$letraencabezado2:'Anton', sans-serif;
+$letratxt1:'Lato', sans-serif;
+
+

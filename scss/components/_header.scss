@@ -1,22 +1,89 @@
-@import"utilities/variables" ;
 
-header{background-color: rgba(240, 234, 234, 0);
-    position:sticky;
-    top: 0;
-    z-index: 1;}
-    .imglogonav{width: 100%;
-        border-radius: 15px;
-        border-color: black;
-        margin-left: 0%;
-        margin-right: 0%;
-    box-shadow: 4rem rgb(226, 0, 0);}
-    .navbar-collapse{flex-grow: inherit;}  
-    .navbar-dark .navbar-nav .nav-link{color:white;}
-    .navbar-dark .navbar-nav .nav-link:hover{color:blue; background-color: white;
-    ;}
+
+header{
     
-    /*menu de hamburguesa*/
-    .navbar-dark .navbar-toggler{color: blue ;
-    border-color:blue;}
-    .navbarbackground{background-color: $gristransparente;}
+    .navheader{margin:4% 0 4% 0;
+    background: url('../images/bkg/backgroundheader.jpg');
+    background-position:center;
+    padding-bottom: 0%;
+    
+    .botonnav{margin-right: 1%;
+    background-color:black;}
+    .divnav{padding: 0%;
+        
+        
+        .imglogonavh1{display: flex;
+        align-items: center;
+        text-decoration:none;
+        width: 80%;
+        justify-content: center;
+            
+            .logotorosnav{width: 40%;}
+            
+            .h1header{text-align: center;
+            font-family: $letraencabezado1;
+            text-transform: uppercase;
+            font-size: 1.1rem;
+            color: black;
+            width: 100%;
+            }
+        }
 
+
+
+        .divnavitem{background-color: $grisoscuro;
+                
+                text-align: center;
+                
+                .txtnav{color:$verdeclaro;}
+                }
+
+        }
+    } 
+}
+
+@media (min-width:576px) and (max-width:991px){ header{
+    
+    .navheader{
+    
+        .divnav{
+        
+        
+            .imglogonavh1{
+
+                .logotorosnav{width: 30%;}
+            
+                .h1header{
+                font-size: 2.1rem;
+                }
+            }
+
+
+        }
+    } 
+}
+
+}
+
+@media (min-width:992px) {header{
+    
+    .navheader{ margin-bottom: 2%;
+    
+        .divnav{
+        
+        
+            .imglogonavh1{
+                
+                .logotorosnav{width: 20%;}
+                
+                    .h1header{
+                    font-size: 3.1rem;
+                    }
+            }
+
+
+        }
+    } 
+}
+
+}

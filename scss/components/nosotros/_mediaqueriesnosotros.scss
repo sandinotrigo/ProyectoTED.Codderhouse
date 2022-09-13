@@ -1,0 +1,54 @@
+@media (min-width:992px){
+    .main_nosotros{
+        background-image: url(../images/bkg/background_nosotros.jpg);
+        background-size:cover;
+        background-position: center;
+        padding-top: 5%;
+        padding-bottom: 5%;
+    
+    .nosotros_texto_div1{
+        display: flex;
+        flex-direction: column;
+        background-color: $grisclarotransparente;
+        margin-top: 10%;
+    
+        & .encabezado_nosotros1{
+            font-family: $letraencabezado1;
+            color: beige;
+            text-align: center;
+            margin: 20% 2% 5% 2%;
+            font-size: 200%;
+        }
+    
+        .nosotros_texto_p1{
+           
+            font-family: $letratxt1;
+            color: rgb(5, 5, 79);
+            text-align: center;
+            margin-bottom: 0%;
+            font-size: 200%;
+        }
+    
+        & .lista_nosotros{
+            margin: 0%;
+            font-family: $letraencabezado2;
+            color: rgb(21, 0, 255);
+            background-color: none;
+                .nosotros_list_item{
+                    font-size: 200%;
+                text-decoration: none;
+                color: rgb(55, 0, 55);}
+        }
+    
+        .nosotros_texto_p3{ 
+            font-family: $letratxt1;
+            color: rgb(5, 5, 79);
+            text-align: center;
+            margin-bottom: 10%;
+            font-size: 200%;
+            background-color: none;
+        }
+        }
+    }
+    
+    }

@@ -1,0 +1,138 @@
+@media (min-width: 576px) and (max-width: 991px) {
+
+    .mobile{
+        display: none !important;
+    }
+    .pc{
+        display: block !important;
+    }
+    .grid_galeria_caranchos{
+        background-color: $celestecaranchos;
+        padding: 5%;
+    }
+    .logos_circular_carrera_caranchos{
+        text-align: center;
+        border-radius: 50%;
+        margin: 3% 40% 5% 35%;
+        width: 25%;
+        transform: rotate(22deg);
+    }
+    .grid_galeria_100x100to{
+        background-color: $verdeclaro;
+        padding: 5%; 
+    }
+    .logos_circular_carrera_100x100to{ text-align: center;
+        border-radius: 50%;
+        margin: 10% 40% 5% 35%;
+        width: 25%;
+        }
+    .logos_circular_carrera_duatlon_rustico{
+        text-align: center;
+        border-radius: 50%;
+        margin: 10% 40% 5% 35%;
+        width: 25%;
+    }
+    .grid_galeria_duatlon_rustico{
+        background-color: $maderaduatlon;
+        padding: 5%; 
+    }
+
+    .gridgaleria{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(2 , 1fr) ;
+        grid-column-gap: 25px;
+        grid-row-gap: 15px;
+        width: 100%;
+        padding: 5%;
+
+    
+    &.img1 {grid-area: 1 / 1 / 2 / 2;}
+    &.img2 {grid-area: 1 / 2 / 2 / 3;}
+    &.img3 {grid-area: 1 / 3 / 2 / 4;}
+    &.img4 {grid-area: 1 / 4 / 2 / 5;}
+    &.img5 {grid-area: 2 / 1 / 3 / 2;}
+    &.img6 {grid-area: 2 / 2 / 3 / 3;}
+    &.img7 {grid-area: 2 / 3 / 3 / 4;}
+    &.img8 {grid-area: 2 / 4 / 3 / 5;}
+    .foto_galeria{ width: 100%;}
+}
+
+}
+
+@media (min-width: 992px){
+    .mobile{
+        display: none !important;
+    }
+    .pc{
+        display: block !important;
+    }
+
+    .logos_circular_carrera_caranchos{
+        text-align: center;
+        border-radius: 50%;
+        margin: 15% 40% 3% 35%;
+        width: 25%;
+        transform: rotate(22deg);
+    }
+    .logos_circular_carrera_100x100to{ text-align: center;
+        border-radius: 50%;
+        margin: 10% 40% 5% 35%;
+        width: 25%;
+        }
+    .logos_circular_carrera_duatlon_rustico{
+        text-align: center;
+        border-radius: 50%;
+        margin: 10% 40% 5% 35%;
+        width: 25%;
+    }
+
+
+    .gridgaleria{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(2 , 1fr) ;
+        grid-column-gap: 25px;
+        grid-row-gap: 15px;
+        width: 100%;
+        padding: 5%;
+
+    
+    &.img1 {grid-area: 1 / 1 / 2 / 2;}
+    &.img2 {grid-area: 1 / 2 / 2 / 3;}
+    &.img3 {grid-area: 1 / 3 / 2 / 4;}
+    &.img4 {grid-area: 1 / 4 / 2 / 5;}
+    &.img5 {grid-area: 2 / 1 / 3 / 2;}
+    &.img6 {grid-area: 2 / 2 / 3 / 3;}
+    &.img7 {grid-area: 2 / 3 / 3 / 4;}
+    &.img8 {grid-area: 2 / 4 / 3 / 5;}
+    .foto_galeria{ width: 100%;}
+}
+
+    
+
+    .parallax_galeria_caranchos{
+        background-image: url(../images/bkg/background_galeria_caranchos.jpg);
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;  
+    
+
+    }
+    
+    .parallax_galeria_duatlon_rustico{
+        background-image: url(../images/bkg/background_galeria_duatlonrustico.jpg);
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;  
+    }
+    .parallax_galeria_100x100to{
+        background-image: url(../images/bkg/background_galeria_100x100to.jpg);
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;  
+    }
+}

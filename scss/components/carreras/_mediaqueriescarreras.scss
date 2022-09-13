@@ -1,0 +1,63 @@
+@import "utilities/variables";
+
+@media (min-width:576px) and (max-width:991px){
+    .texto_inscripcion{
+        font-size: 400%;
+        width: 100%;}
+        & .texto_video_inscripcion{
+            font-size: 400%;
+            width: 100%;
+    }
+
+}
+
+@media(min-width:992px){
+    .encabezado_article_carreras{font-size: 500%;
+    margin-top: 2% ;
+    margin-bottom: 10%;}
+    .encabezado_titulo{font-size: 600%;
+    margin-bottom: 15%;}
+    .grid_texto_carreras_p1{
+        font-size: 200%;}
+
+    .grid_texto_carreras_p2{
+        font-size: 200%;
+    }
+    .carreras_main_pc{
+        display: flex;
+        flex-direction: column;
+    & .grid_carreras{
+    & .slider_carreras{
+        width: 50%; 
+    }
+    
+    & .boton_inscripcion{
+        width: 50%;
+        margin: 0% 25% 3% 25%;
+        & .texto_inscripcion{
+            font-size: 300%;
+            width: 100%;
+        }
+    }    
+    .grid_slider_carreras{
+        
+        & .video_caranchos{
+            width: 90%;
+            height: 45vh;
+        }
+    }
+
+    .boton_video_inscripcion{
+        width: 50%;
+        margin: 0% 25% 3% 25%;
+    & .texto_video_inscripcion{
+        font-size: 300%;
+        text-decoration: none;
+        width: 100%;
+}
+                            }
+    }
+    }
+    
+
+}

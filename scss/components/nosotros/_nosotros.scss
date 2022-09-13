@@ -1,21 +1,47 @@
-@import"utilities/variables";
+@import "utilities/variables";
+.main_nosotros{
+    background-image: url(../images/bkg/background_nosotros.jpg);
+    background-size:cover;
+    background-position: center;
 
-.h1nosotros{font-family: 'Kanit', sans-serif;
-    font-family: 'Permanent Marker', cursive;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    padding: 10px;
-color:rgb(2, 4, 81);
-background-color: $gristransparente;}
-.textonosotros
-    {background-color: rgba(2, 5, 81, 0.176);
-    font-size: 100%;
-    font-weight: bold;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: rgba(173, 251, 251, 0.591);
+.nosotros_texto_div1{
+    display: flex;
+    flex-direction: column;
+
+    & .encabezado_nosotros1{
+        font-family: $letraencabezado1;
+        color: beige;
+        text-align: center;
+        background-color: $grisoscurotransparente;
+        margin: 20% 2% 5% 2%;
     }
-    .divnosotros{background-image: url(/images/nuevasimagenes/fotoefectos.com_.jpg);
-        background-position: center;
-        background-size: cover
+
+    .nosotros_texto_p1{
+        background-color: $grisclarotransparente;
+        font-family: $letratxt1;
+        color: rgb(5, 5, 79);
+        text-align: center;
+        margin-bottom: 0%;
     }
+
+    & .lista_nosotros{
+        background-color: $grisclarotransparente;
+        
+        margin: 0%;
+        font-family: $letraencabezado2;
+        color: rgb(21, 0, 255);
+            
+            .nosotros_list_item{
+            text-decoration: none;
+            color: rgb(55, 0, 55);}
+    }
+
+    .nosotros_texto_p3{ background-color: $grisclarotransparente;
+        font-family: $letratxt1;
+        color: rgb(5, 5, 79);
+        text-align: center;
+        margin-bottom: 10%;
+
+    }
+    }
+}

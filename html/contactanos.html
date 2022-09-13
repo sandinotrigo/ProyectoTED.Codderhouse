@@ -7,8 +7,9 @@
     <meta name="description" content="Contacta con nosotros y comentanos tus dudas o que te parecio nuestra carrera!">
     <meta name="keywords" content="Carreras de aventura,maraton, trail, duatlon, running, mountainbike, Uruguay, cien por ciento aventura, X race, Duatlon rustico, contacto toros eventos deportivos, contacto TED,">
     <title>TorosEventos.ContactUs</title>
+        <!--AOS-->
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@600&family=Permanent+Marker&display=swap" rel="stylesheet"> 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap" rel="stylesheet"> 
@@ -16,58 +17,60 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
         <!-- icono favicon -->
-        <link rel="shortcut icon" href="../images/nuevasimagenes/logotoros.jpg" type="image/x-icon">
+        <link rel="shortcut icon" href="../images/logos/logotorosazul.jpg" type="image/x-icon">
 
      <!--Hoja de estilos CSS de manera externa-->
      <link rel="stylesheet" href="../css/style.css">
 </head>
 <body> 
-    <header >
-        <nav class="navbar navbar-expand-lg navbar-dark  sticky-top">
-            <div class="container-fluid navbarbackground">
-              <div class="logotorosnav">
-              <a class="navbar-brand " href="./index.html"><img class="imglogonav" src="../images/nuevasimagenes/logotoros.jpg" alt="logonav"></a>
-            </div>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse navflexpc" id="navbarSupportedContent">
-                <ul class="navbar-nav navbar-center  me-auto mb-2 mb-lg-0 clasemia ">
-                  <li class="nav-item">
-                    <a class="nav-link " aria-current="page" href="../index.html">Inicio</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="./inscripciones.html">Inscripciones</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="./merchandising.html">Merchandising</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="./nosotros.html">Nosotros</a>
-                  </li>
-                    <a class="nav-link" href="./contactanos.html">Contactanos!</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </nav>
-              </header>  
+  <header >
+    <nav class="navheader navbar navbar-expand-lg navbar-dark sticky-top">
+        <div class="container-fluid divnav">
+          <a href="../index.html" class="imglogonavh1">
+          <img class="logotorosnav" src="../images/logos/logotorosheader.jpg" alt="logonav">
+          <h1 class="h1header">eventos deportivos</h1>
+          </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="botonnav navbar-toggler-icon"></span>
+          </button>
+          <div class="divnavitem collapse navbar-collapse navflexpc" id="navbarSupportedContent">
+            <ul class="navbar-nav navbar-center me-auto mb-2 mb-lg-0 ">
+              <li class="nav-item">
+                <a class="txtnav nav-link " aria-current="page" href="../index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="txtnav nav-link" href="carreras.html">Carreras</a>
+              </li>
+              <li class="nav-item">
+                <a class="txtnav nav-link" href="galeria.html">Galeria</a>
+              </li>
+              <li class="nav-item">
+                <a class="txtnav nav-link" href="nosotros.html">Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="txtnav nav-link" href="contactanos.html">Contactanos!</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>  
+  </header>
     
     <main class="main">
-        <h1 class="fontdestacados">pagina de contacto</h1>
+        <h1 class="h2contacto">Contacta con nosotros!</h1>
     <!--formulario de contacto--> <!--Se cambiaran los <p> que colocan de forma vertical el formulario con css (esta hecho provisoriamente)-->
-            <form action="procesar.php" name="contacto" method="post"; id="form">
-            <fieldset>
+            <form data-aos="fade-up" class="formcontacto container" action="procesar.php" name="contacto" method="post"; id="form">
+            <fieldset class="fieldsetform">
                 <p>
-                    <legend>Contacta con nosotros!</legend>
+                    <legend>Rellena este formulario y te contactaremos lo antes posible</legend>
                 </p>
                 <p>
-                <label>Tu nombre
+                <label class="txtform">Tu nombre
                     <input type="text" name="nombre" placeholder="ej:Juan" required>
                 </label>
                 </p>
                 <p>
-                    <label>Tu apellido
+                    <label class="txtform">Tu apellido
                     <input type="text" name="apellido" placeholder="ej:Perez" required>
                 </label>
                 </p>
@@ -81,39 +84,48 @@
                 <label for="pais residente">Otro</label>
                 <input type="radio"name="pais residente" value="Otro">
                 <p>
-                <label>Tu correo electronico
+                <label class="txtform">Tu correo electronico
                     <input type="email" name="e-mail" placeholder="ejemplo@servidor.com" required>
                 </label>
                 </p>
                 <p>
-                <label>Escribe tu mensaje aqui:
+                <label class="txtform">Escribe tu mensaje aqui:
                 </p>
                 <p>  
-                    <textarea name="motivo de contacto" rows="20" cols="70" placeholder="Hola!"></textarea>
+                    <textarea name="motivo de contacto" rows="5" cols="25" placeholder="Hola!"></textarea>
                 </p>
                     <!--buttons-->                                                                              <!-- boton actualmente sin funcion para agregarsela con el curso de js-->                                    
                 <button type="submit">Enviar</button>   <button type="reset">Resetear formulario</button>   <button type="button">No funcional</button> 
             </fieldset>
-            </form>            
+            </form>  
+            <div data-aos="fade-left" data-aos-duration="650" class="divwpp">
+              <h3 class="h3contacto"  >escribenos por whatsapp!</h3>
+              <div class="divlogowpp"><img class="logowpp" src="../images/logos/whatsapplogo.svg" alt="logowpp">
+              <p>509 348 234</p></div>
+            </div>
     </main>
-    <footer class="footermio">
-
-        <a href="./index.html"> <img class="logofooter" src="../images/nuevasimagenes/logotoros.jpg"> </a>    
-    
-        
-            <p>Todos los derechos reservados al autor</p>
-            <p>Página creada solamente para practica</p>
-            <p>autor:Sandino Trigo. </p>
-
-    </footer>
-
-      <!--Bosstrap scripts-->
-      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
-     <!--AOS scripts-->
-     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-     <script>
-      AOS.init();
-    </script>
-</body>     
+    <footer>
+      <div class="divftredes">
+        <p class="txtftredes">seguinos en:</p> 
+      
+        <a href="https://www.instagram.com/rubentrigotoroseventos/"><img class="logosredes" src="../images/logos/instagramicon.svg" alt=""></a> 
+        <a href=""><img class="logosredes" src="../images/logos/facebookicon.svg" alt=""></a>
+        <a href="https://www.youtube.com/watch?v=Y1-_IEtJPAs&t=506s"><img class="logosredes" src="../images/logos/youtubeicon.svg" alt=""></a>
+      
+      </div>
+      <div class="divtxtlogoft">
+      <a href=""><img class="logoft" src="../images/logos/logotorosheader.jpg" alt=""></a>
+      <p class="txtftlogo">Autor: Sandino Trigo Muñoz</p> 
+      <p class="txtftlogo">Pagina creada solamente para practica, sin fines de lucro</p>
+      </div>
+        </footer>
+            <!--Bosstrap scripts-->
+          <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+         <!--AOS scripts-->
+         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+         <script>
+          AOS.init();
+        </script>
+      </body>
 </html> 

@@ -1,25 +1,100 @@
-.slider{width: 50%;
-    margin-left: auto;
-    margin-right: auto;
-    z-index: index -1;;}
-    .main{display: flex;
+@import "utilities/variables";
+.mainind{
+    .slider1ind{margin:15% 0 15% 0}
+
+    .contind{
+
+        .artind1{display: flex;
         flex-direction: column;
-        align-content: center;
-        justify-content: center;}
-    .h1index
-        {  font-family: 'Kanit', sans-serif;
-            font-family: 'Permanent Marker', cursive;
-            margin-left: auto;
-            margin-right: auto;
+        margin: 15% 0 15% 0;
+        
+        
+            .h2ind{font-family:$letraencabezado2;
+            letter-spacing: 10px;
+            text-transform: uppercase;
             text-align: center;
-            padding: 10px;
-        color:rgb(2, 4, 81) ;
+            color: rgb(246, 136, 51);
+            background-color: $grisoscurotransparente;
+            margin:0%;
+            padding:5%}
+
+            .divart1ind{display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                grid-template-rows: repeat(2, 1fr);
+                grid-column-gap: 10px;
+                grid-row-gap: 6%;
+                background-color: $naranjaxrace;
+                padding-top: 4%;
+            
+            .divtxtart1ind01{grid-area: 1 / 2 / 2 / 3; 
+                    
+                    .txtart1ind01{padding: 0% 1% 2% 2%
+                    ;}}
+                
+            
+            .divimgart1ind{ grid-area:  1 / 1 / 2 / 2; 
+                    
+                    .imgart1ind{-webkit-box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
+                    box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+                    width: 100%;
+                    margin:0%;}}
+                
+            .divtxtart1ind02{grid-area:2 / 1 / 3 / 3;
+                background-color: $grisoscuro;
+                
+                
+
+                    .txtart1ind02{padding: 3% 2% 1% 2%;
+                    margin-top: 5%;
+                    text-align: center;
+                    letter-spacing: 1%;
+                    color:$naranjaxrace;
+                    }
+                }
+            }
         }
-        .h2index
-        {font-family: 'Kanit', sans-serif;
-        font-family: 'Permanent Marker', cursive;
-        margin-left: auto;
-        margin-right: auto;
-        text-align: center;
-        padding: 10px;}
-        .sponsors{width: 100%;}
+    
+    
+        .artind2{display: flex;
+        flex-direction: column;
+        margin-top: 10%;
+            
+                .divart2ind{display: flex;
+                padding: 1% 0 1% 0;
+                background-color: $celesteretomataojo;
+                text-align: center;
+                align-items:center ;
+
+                        .divwalkingperson{width: 22%;
+                        
+                                        .logowalkingperson{width:50%}
+                                        .imgwalkinperson{width: 100%;}}
+                        
+                                        .h3index{width:75%;
+                                            font-family:$letraencabezado1;
+                                            font-size: 220%;
+                                        color: black;}
+                                            
+                            }
+                }
+        }
+    .divslider2ind{display: flex;
+        flex-direction: column;
+        margin-top: 5%;
+
+
+        
+        .h4indsponsors{font-family: $letraencabezado2;
+            text-transform:uppercase;
+            color: white;
+            text-align: center;
+            margin-bottom: 2%;
+        }
+        .sliderind2{
+        width: 25%;
+        margin: auto auto 10% auto ;
+        }
+    
+    }}
+    
+

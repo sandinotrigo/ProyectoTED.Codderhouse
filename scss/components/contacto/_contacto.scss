@@ -1,0 +1,34 @@
+@import "utilities/variables";
+.main{.h2contacto{background-color:$naranjaxrace;
+margin:5% auto 5% auto;
+text-align: center;
+font-family: $letraencabezado2;}
+
+    .formcontacto{
+        background-image: url("../images/logos/logotorosazul.jpg");
+        background-position: center;
+        background-size: cover;
+        width: 70%;
+        text-align:justify;
+        font-family: $letratxt1;
+
+    }
+
+    .divwpp{background-color: white;
+        margin:10% 0% 10% 50%;
+
+            .h3contacto{width: 100%;
+                background-color:rgba(5, 244, 5, 0.671);
+                font-family: $letraencabezado1;}
+            .divlogowpp{background-color:rgba(0, 128, 0, 0.561);
+            width: 100%;
+            .logowpp{width: 10%;}}
+            }
+            .txtform{text-align: center;
+            padding-bottom: 10;}
+            
+            .fieldsetform{
+                margin: 2% auto 2% auto;
+                padding: 2% 25% 2% 25%;
+            background-color: $grisclarotransparente;}
+        }
